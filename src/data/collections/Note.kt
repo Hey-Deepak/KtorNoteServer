@@ -11,4 +11,4 @@ data class Note(
     val color: String,
     @BsonId
     val id: String = ObjectId().toString()
-)    )
+)
